@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'drf_yasg',
     'corsheaders',
-    
+    'whitenoise.runserver_nostatic',
     # Custom apps
     'apps.accounts',
 ]
