@@ -96,7 +96,10 @@ DATABASES = {
         'USER': config('DB_USER'),
         'PASSWORD': config('DB_PASSWORD'),
         'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT', default='5432'),  # Default PostgreSQL port
+        'PORT': config('DB_PORT', default='5432'), 
+        'OPTIONS': {
+            'sslmode': 'require',
+        }
     }
 }
 # Password validation
