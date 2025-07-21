@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     # Custom apps
     'apps.accounts',
+    'apps.studyplanner',
 ]
 
 MIDDLEWARE = [
